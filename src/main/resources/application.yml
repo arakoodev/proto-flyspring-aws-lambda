@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mariadb://188.166.117.220:3306/skip_build?characterEncoding=UTF-8
+    username: chiltan
+    password: EsGj3@wqzc1
+    driver-class-name: org.mariadb.jdbc.Driver
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+        format_sql: true
+    show-sql: true
+    hibernate:
+      ddl-auto: none
